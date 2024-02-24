@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 
 // Import individual routes from the correct paths
-import { signupRoute, loginRoute, logoutRoute } from ".routes/auth.routes.js";
+import { signupRoute, loginRoute, logoutRoute } from "./routes/auth.routes.js";
 import messageRoutes from "./routes/message.routes.js";
 import userRoutes from "./routes/user.routes.js";
 
